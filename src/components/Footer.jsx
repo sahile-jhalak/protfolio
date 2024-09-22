@@ -7,7 +7,7 @@ import { motion } from 'framer-motion';
 import { slideIn } from '../utils/motion';
 
 
-const Footer = () => {
+const Footer = ({ur}) => {
   return (
           
     <motion.div
@@ -28,8 +28,8 @@ const Footer = () => {
         </div>
         <div>
             <a 
-                href="http://localhost:3000/" 
-                className=" w-20  items-center justify-center mt-2 mb-12 hover:text-purple-600" 
+                onClick={() => window.open("https://www.google.com/", "_blank")}
+                className=" w-20  items-center cursor-pointer justify-center mt-2 mb-12 hover:text-purple-600" 
             >
                 <p className=" w-full text-white font-bold text-2xl flex gap-0.5  items-center justify-center mt-5 mb-14 hover:text-purple-600" >Resume
                     <FaDownload className=' size-4 font-bold' />

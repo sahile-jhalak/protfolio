@@ -6,7 +6,7 @@ export const Socials=[
         id: `linkedin-${Date.now()}`,
         content:'linkedin',
         Icon: FaLinkedinIn,
-        uri: "https://www.linkedin.com/in/sahil-ansari-00696325b/",
+        uri: "https://www.linkedin.com/in/sahilejhalak95",
         color: "#0072b1",
     },
     {

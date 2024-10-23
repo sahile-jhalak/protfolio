@@ -19,7 +19,7 @@ const HomeSocial = ({data, index}) => {
         <AnimatePresence>
   
           {isHoverred && (
-            <motion.div className={`absolute inset-1 blur-md bg-gradient-to-br from-primary to-secondary -z-10`} >
+            <motion.div className={`absolute inset-1 blur-md bg-gradient-to-br from-none to-secondary -z-10`} >
             </motion.div>)}
   
           <div className=" w-full h-full rounded-full hover:bg-purple-700 flex items-center justify-center " >

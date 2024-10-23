@@ -27,11 +27,11 @@ import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
 
 import carrent from "./carrent.png";
-import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 import prescripto from './prescripto.png';
 import CarShowcase from './car-showcase.png';
 import shop from './3Dshop.png'
+import port from './port.png';
 export {
   logo,
   backend,
@@ -59,9 +59,9 @@ export {
   starbucks,
   tesla,
   carrent,
-  jobit,
   tripguide,
   prescripto,
   CarShowcase,
-  shop
+  shop,
+  port
 };

@@ -15,10 +15,10 @@ const Footer = ({ur}) => {
     className={`xl:mt-12 flex xl:flex-row items-center justify-center gap-10 overflow-hidden`}
     >
     
-    <div className='relative z-5 bg-primary'>  
+    <div className='relative z-5 bg-none'>  
         <div className=' w-full flex flex-col items-center justify-center mt-32 mb-12' >
             <p className=" font-bold text-white text-3xl tracking-wide text-texlight" >Connect <span className='text-purple-600'>with me..</span></p>
-                <div className=" bg-primary flex items-center justify-center gap-14 mt-10" >
+                <div className=" bg-none flex items-center justify-center gap-14 mt-10" >
                   <AnimatePresence>
                     {Socials && Socials.map((item, index) => (
                       <HomeSocial  key={index}  data={item} index={index} />
@@ -28,7 +28,7 @@ const Footer = ({ur}) => {
         </div>
         <div>
             <a 
-                onClick={() => window.open("https://www.google.com/", "_blank")}
+                onClick={() => window.open("https://drive.google.com/file/d/17OB2f9rf_0aFyHDGaJGWe3FArEyhmpKs/view?usp=drive_link", "_blank")}
                 className=" w-20  items-center cursor-pointer justify-center mt-2 mb-12 hover:text-purple-600" 
             >
                 <p className=" w-full text-white font-bold text-2xl flex gap-0.5  items-center justify-center mt-5 mb-14 hover:text-purple-600" >Resume

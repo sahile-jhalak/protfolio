@@ -20,7 +20,7 @@ import {
     tesla,
     shopify,
     carrent,
-    jobit,
+    port,
     shop,
     threejs,
     prescripto,
@@ -43,18 +43,18 @@ import {
   ];
   
   const services = [
-    {
-      title: "Frontend Developer",
-      icon: web,
-    },
-    {
-      title: "Data Structures and Algorithms",
-      icon: mobile,
-    },
-    {
-      title: "Backend Developer",
-      icon: backend,
-    },
+    // {
+    //   title: "Frontend Developer",
+    //   icon: web,
+    // },
+    // {
+    //   title: "Data Structures and Algorithms",
+    //   icon: mobile,
+    // },
+    // {
+    //   title: "Backend Developer",
+    //   icon: backend,
+    // },
     // {
     //   title: "Content Creator",
     //   icon: creator,
@@ -223,26 +223,30 @@ import {
       visit_here_link:"https://dashboardcom.netlify.app",
     },
     {
-      name: "Job IT",
+      name: "PortFolio",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "A personal portfolio website effectively showcases your professional identity,highlighting skills and expertise through a concise ,It features a structured display of projects and case studies,",
       tags: [
         {
           name: "react",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
+          name: "javascript",
           color: "green-text-gradient",
         },
         {
-          name: "scss",
+          name: "three.js",
           color: "pink-text-gradient",
         },
+        {
+          name: "tailwindcss",
+          color: "blue-text-gradient",
+        },
       ],
-      image: jobit,
-      source_code_link: "https://github.com/",
-      visit_here_link:"https://dashboardcom.netlify.app",
+      image: port,
+      source_code_link: "https://github.com/sahile-jhalak/protfolio",
+      visit_here_link:"https://sahil-portfolio-beta-seven.vercel.app",
     },
     {
       name: "3D Shop",

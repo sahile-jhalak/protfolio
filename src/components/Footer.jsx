@@ -28,7 +28,7 @@ const Footer = ({ur}) => {
         </div>
         <div>
             <a 
-                onClick={() => window.open("https://drive.google.com/file/d/1U3yy4PnNnEizyCwPLsjUQJPswa-Zu3Go/view?usp=drive_link", "_blank")}
+                onClick={() => window.open("https://app.luminpdf.com/viewer/67196cd306545daf3625fe2f", "_blank")}
                 className=" w-20  items-center cursor-pointer justify-center mt-2 mb-12 hover:text-purple-600" 
             >
                 <p className=" w-full text-white font-bold text-2xl flex gap-0.5  items-center justify-center mt-5 mb-14 hover:text-purple-600" >Resume

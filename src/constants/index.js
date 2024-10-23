@@ -246,7 +246,7 @@ import {
       ],
       image: port,
       source_code_link: "https://github.com/sahile-jhalak/protfolio",
-      visit_here_link:"https://sahil-portfolio-beta-seven.vercel.app",
+      visit_here_link:"https://sahile-portfolio.vercel.app/",
     },
     {
       name: "3D Shop",
